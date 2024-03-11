@@ -1,0 +1,71 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+.home-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.teachers-container {
+    border: 2px solid red;
+    height: 60%;
+    width: 40%;
+}
+
+.students-container {
+    border: 2px solid red;
+    height: 60%;
+    width: 40%;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.roles-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.roles-list {
+width: 95%;
+text-align: justify;
+}
+
+.roles-list ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-content {
+    text-align: center;
+}
+
+.list-content li{
+    margin-bottom: .2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #2F3E46;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #88A5BF;
+}
